@@ -1,0 +1,188 @@
+00:00.0 Host bridge: Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers (rev 05)
+	Subsystem: Hewlett-Packard Company Device 8390
+	Flags: bus master, fast devsel, latency 0
+	Capabilities: <access denied>
+
+00:01.0 PCI bridge: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16) (rev 05) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: 0000e000-0000efff [size=4K]
+	Memory behind bridge: db000000-dc0fffff [size=17M]
+	Prefetchable memory behind bridge: 00000000b0000000-00000000c1ffffff [size=288M]
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:04.0 Signal processing controller: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem (rev 05)
+	Subsystem: Hewlett-Packard Company Device 8390
+	Flags: fast devsel, IRQ 16
+	Memory at dc520000 (64-bit, non-prefetchable) [size=32K]
+	Capabilities: <access denied>
+	Kernel driver in use: proc_thermal
+	Kernel modules: processor_thermal_device
+
+00:14.0 USB controller: Intel Corporation Sunrise Point-H USB 3.0 xHCI Controller (rev 31) (prog-if 30 [XHCI])
+	Subsystem: Hewlett-Packard Company Device 8390
+	Flags: bus master, medium devsel, latency 0, IRQ 122
+	Memory at dc510000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: xhci_hcd
+
+00:14.2 Signal processing controller: Intel Corporation Sunrise Point-H Thermal subsystem (rev 31)
+	Subsystem: Hewlett-Packard Company Device 8390
+	Flags: fast devsel, IRQ 18
+	Memory at dc537000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: intel_pch_thermal
+	Kernel modules: intel_pch_thermal
+
+00:15.0 Signal processing controller: Intel Corporation Sunrise Point-H Serial IO I2C Controller #0 (rev 31)
+	Subsystem: Hewlett-Packard Company Device 8390
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Memory at dc536000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: intel-lpss
+	Kernel modules: intel_lpss_pci
+
+00:16.0 Communication controller: Intel Corporation Sunrise Point-H CSME HECI #1 (rev 31)
+	Subsystem: Hewlett-Packard Company Device 8390
+	Flags: bus master, fast devsel, latency 0, IRQ 133
+	Memory at dc535000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: mei_me
+	Kernel modules: mei_me
+
+00:17.0 SATA controller: Intel Corporation Sunrise Point-H SATA Controller [AHCI mode] (rev 31) (prog-if 01 [AHCI 1.0])
+	Subsystem: Hewlett-Packard Company Device 8390
+	Flags: bus master, 66MHz, medium devsel, latency 0, IRQ 121
+	Memory at dc530000 (32-bit, non-prefetchable) [size=8K]
+	Memory at dc534000 (32-bit, non-prefetchable) [size=256]
+	I/O ports at f050 [size=8]
+	I/O ports at f040 [size=4]
+	I/O ports at f020 [size=32]
+	Memory at dc533000 (32-bit, non-prefetchable) [size=2K]
+	Capabilities: <access denied>
+	Kernel driver in use: ahci
+
+00:1c.0 PCI bridge: Intel Corporation Sunrise Point-H PCI Express Root Port #1 (rev f1) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Bus: primary=00, secondary=02, subordinate=3a, sec-latency=0
+	I/O behind bridge: 00002000-00002fff [size=4K]
+	Memory behind bridge: c4000000-da0fffff [size=353M]
+	Prefetchable memory behind bridge: 0000000080000000-00000000a1ffffff [size=544M]
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.4 PCI bridge: Intel Corporation Sunrise Point-H PCI Express Root Port #5 (rev f1) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Bus: primary=00, secondary=3b, subordinate=3b, sec-latency=0
+	I/O behind bridge: 0000d000-0000dfff [size=4K]
+	Memory behind bridge: dc400000-dc4fffff [size=1M]
+	Prefetchable memory behind bridge: None
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.5 PCI bridge: Intel Corporation Sunrise Point-H PCI Express Root Port #6 (rev f1) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 17
+	Bus: primary=00, secondary=3c, subordinate=3c, sec-latency=0
+	I/O behind bridge: 0000c000-0000cfff [size=4K]
+	Memory behind bridge: dc300000-dc3fffff [size=1M]
+	Prefetchable memory behind bridge: None
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.6 PCI bridge: Intel Corporation Sunrise Point-H PCI Express Root Port #7 (rev f1) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 18
+	Bus: primary=00, secondary=3d, subordinate=3d, sec-latency=0
+	I/O behind bridge: None
+	Memory behind bridge: dc200000-dc2fffff [size=1M]
+	Prefetchable memory behind bridge: None
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1d.0 PCI bridge: Intel Corporation Sunrise Point-H PCI Express Root Port #9 (rev f1) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Bus: primary=00, secondary=3e, subordinate=3e, sec-latency=0
+	I/O behind bridge: None
+	Memory behind bridge: dc100000-dc1fffff [size=1M]
+	Prefetchable memory behind bridge: None
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1f.0 ISA bridge: Intel Corporation Sunrise Point-H LPC Controller (rev 31)
+	Subsystem: Hewlett-Packard Company Device 8390
+	Flags: bus master, medium devsel, latency 0
+
+00:1f.2 Memory controller: Intel Corporation Sunrise Point-H PMC (rev 31)
+	Subsystem: Hewlett-Packard Company Device 8390
+	Flags: fast devsel
+	Memory at dc52c000 (32-bit, non-prefetchable) [disabled] [size=16K]
+
+00:1f.3 Audio device: Intel Corporation CM238 HD Audio Controller (rev 31) (prog-if 80)
+	Subsystem: Hewlett-Packard Company Device 8390
+	Flags: bus master, fast devsel, latency 32, IRQ 134
+	Memory at dc528000 (64-bit, non-prefetchable) [size=16K]
+	Memory at dc500000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+
+00:1f.4 SMBus: Intel Corporation Sunrise Point-H SMBus (rev 31)
+	Subsystem: Hewlett-Packard Company Device 8390
+	Flags: medium devsel, IRQ 16
+	Memory at dc532000 (64-bit, non-prefetchable) [size=256]
+	I/O ports at f000 [size=32]
+	Kernel driver in use: i801_smbus
+	Kernel modules: i2c_i801
+
+01:00.0 VGA compatible controller: NVIDIA Corporation GP106M [GeForce GTX 1060 Mobile 6GB] (rev a1) (prog-if 00 [VGA controller])
+	Subsystem: Hewlett-Packard Company GeForce GTX 1060 Max-Q 6GB
+	Flags: bus master, fast devsel, latency 0, IRQ 136
+	Memory at db000000 (32-bit, non-prefetchable) [size=16M]
+	Memory at b0000000 (64-bit, prefetchable) [size=256M]
+	Memory at c0000000 (64-bit, prefetchable) [size=32M]
+	I/O ports at e000 [size=128]
+	[virtual] Expansion ROM at dc000000 [disabled] [size=512K]
+	Capabilities: <access denied>
+	Kernel driver in use: nvidia
+	Kernel modules: nouveau, nvidia_drm, nvidia
+
+3b:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 16)
+	Subsystem: Hewlett-Packard Company Device 8390
+	Flags: bus master, fast devsel, latency 0, IRQ 125
+	I/O ports at d000 [size=256]
+	Memory at dc404000 (64-bit, non-prefetchable) [size=4K]
+	Memory at dc400000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: r8169
+	Kernel modules: r8169
+
+3c:00.0 Network controller: Realtek Semiconductor Co., Ltd. Device b822
+	Subsystem: Hewlett-Packard Company Device 831b
+	Flags: bus master, fast devsel, latency 0, IRQ 135
+	I/O ports at c000 [size=256]
+	Memory at dc300000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: r8822be
+	Kernel modules: r8822be, rtl8822be
+
+3d:00.0 Unassigned class [ff00]: Realtek Semiconductor Co., Ltd. RTS522A PCI Express Card Reader (rev 01)
+	Subsystem: Hewlett-Packard Company Device 8390
+	Flags: bus master, fast devsel, latency 0, IRQ 123
+	Memory at dc200000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: rtsx_pci
+	Kernel modules: rtsx_pci
+
+3e:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd NVMe SSD Controller SM961/PM961 (prog-if 02 [NVM Express])
+	Subsystem: Samsung Electronics Co Ltd Device a801
+	Flags: bus master, fast devsel, latency 0, IRQ 16, NUMA node 0
+	Memory at dc100000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: nvme
+	Kernel modules: nvme
