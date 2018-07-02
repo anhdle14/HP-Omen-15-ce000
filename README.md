@@ -34,7 +34,7 @@ So if you haven't noticed the specs of the laptop. You will probably guess, this
 ---
 - A Working MacOS.
 - USB3/USB2 8GB or more.
-- 40$ for the Wifi. Ignore if that is now what you are looking for.
+- 40$ for the Wifi. Ignore if that is not what you are looking forward to have.
 - Reading, and don't expect to be spoonfed.
 
 ## Guide
