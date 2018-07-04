@@ -1,0 +1,22 @@
+/Library/Extensions
+├── ACPIBatteryManager.kext
+├── AirportBrcmFixup.kext
+├── AppleALC.kext
+├── BrcmFirmwareRepo.kext
+├── BrcmPatchRAM2.kext
+├── FakePCIID.kext
+├── FakePCIID_Broadcom_WiFi.kext
+├── FakeSMC.kext
+├── FakeSMC_ACPISensors.kext
+├── FakeSMC_CPUSensors.kext
+├── FakeSMC_GPUSensors.kext
+├── FakeSMC_LPCSensors.kext
+├── Lilu.kext
+├── NvidiaGraphicsFixup.kext
+├── RealtekRTL8111.kext
+├── SATA-100-series-unsupported.kext
+├── Sinetek-rtsx.kext
+├── Shiki.kext
+├── USBInjectAll.kext
+├── VoodooPS2Controller.kext
+├── XHCI-200-series-injector.kext
