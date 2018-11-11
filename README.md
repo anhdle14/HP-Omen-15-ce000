@@ -27,7 +27,7 @@ The purpose of this repo is to provide a starter to get MacOS running on the rec
 So if you haven't noticed the specs of the laptop. You will probably guess, this laptop looks a lot like a PC. However, a lot of the post-installation is by following Rehabman Guide on TonymacX86. The pre-installation is by following /r/hackintosh. So please check the guide based on that.
 
 > Note about the laptop model:
-- Some of the high-end laptop disable iGPU be default, in order to run a higher refresh rate Display Panel. So If you coming from a low-end model HP Omen laptop, please reading and following the Rehabman Laptop Guide. E.g: GTX 1050ti or lower will be using iGPU.
+- Some of the high-end laptop disable iGPU be default, as the display is soldered directly to the discreet GPU to support G-SYNC. So If you coming from a low-end model HP Omen laptop, please reading and following the Rehabman Laptop Guide. E.g: GTX 1050ti or lower will be using iGPU.
 - During pre-installation, things should be different based on model. But for the post-installation, i have been helping other people to get stuffs working, and it is basically the same process.
 
 ### Things that work:
