@@ -1,4 +1,4 @@
-# A Jounety to the Hackintosh Land
+# A Journey to the Hackintosh Land
 ---
 The purpose of this repo is to provide a starter to get MacOS running on the recent HP Laptop model.
 
